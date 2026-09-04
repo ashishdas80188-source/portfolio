@@ -264,7 +264,7 @@
   // 2. 3D Tilt Effect on Project Cards
   // --------------------------------------------------------------------------
   const initProjectCardTilt = () => {
-    const cards = document.querySelectorAll('.project-card');
+    const cards = document.querySelectorAll('.project-card, .hero-avatar-card');
     if (!cards.length) return;
 
     cards.forEach((card) => {
